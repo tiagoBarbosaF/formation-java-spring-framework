@@ -1,5 +1,7 @@
 package javaservlet.gerenciador;
 
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -14,18 +16,13 @@ import java.util.List;
 @WebServlet(name = "ListaEmpresasServlet", value = "/listaEmpresas")
 public class ListaEmpresasServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException,
+            ServletException {
         Banco banco = new Banco();
         List<Empresa> list = banco.getEmpresas();
-        PrintWriter out = response.getWriter();
 
-        out.println("<html><body>");
-        out.println("<ul>");
-        for (Empresa empresa :
-                list) {
-            out.println("<li>" + empresa.getNome() + "</li>");
-        }
-        out.println("</ul>");
-        out.println("</body></html>");
+        request.setAttribute("listEmpresas", list);
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("/listaEmpresas.jsp");
+        requestDispatcher.forward(request, response);
     }
 }

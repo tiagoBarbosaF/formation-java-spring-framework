@@ -42,15 +42,23 @@
     - Nessa aula preparamos o modelo da nossa aplicação. O modelo ou domínio são as classes que representam o mundo real, aquilo que o cliente ou usuário da aplicação define.
     - Para descobrir quais são as classes e funcionalidades do modelo o analista de requisitos conversa com o cliente e documenta cada funcionalidade.
 
-- Páginas dinâmicas com JSP
-  - Primeiro JSP
-  - Sobre JSP
-  - Sobre Scriptlet
-  - Mais sobre Scriptlet
-  - Despachando a requisição
-  - RequestDispatcher
-  - JSP para listar empresas
-  - O que aprendemos?
+- Páginas dinâmicas com JSP ✅
+  - Primeiro JSP ✅
+  - Sobre JSP ✅
+  - Sobre Scriptlet ✅
+  - Mais sobre Scriptlet ✅
+  - Despachando a requisição ✅
+  - RequestDispatcher ✅
+  - JSP para listar empresas ✅
+  - O que aprendemos? ✅
+    - JSP significa Java Server Pages
+    - JSP é uma página automaticamente processada pelo Tomcat
+    - Para gerar HTML dinamicamente no JSP usamos Scriptlets
+    - Um scriptlet `<% %>` é um código Java no HTML
+    - Um scriptlet só funciona em uma página JSP
+    - Usamos o `RequestDispatcher` para chamar um JSP a partir da servlet
+    - Obtemos o `RequestDispatcher` a partir do `HttpServletRequest`
+    - Usamos a requisição para colocar ou pegar um atributo `(setAttribute(.., ..)` ou `getAttribute(..))`
 
 - JSTL e Expression Language
   - Conhecendo Expression Language
