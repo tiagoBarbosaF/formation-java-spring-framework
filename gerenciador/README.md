@@ -16,16 +16,21 @@
     - Para mapear a URL para uma servlet usamos a anotação `@WebServlet`
     - Uma servlet deve estender a classe `HttpServlet` e sobrescrever um determinado método (por exemplo, `service`)
 
-- Trabalhando com POST e GET
-  - Enviando parâmetros
-  - Parâmetros da requisição
-  - Métodos GET e POST
-  - Formulário HTML
-  - Diferença entre GET e POST
-  - Apenas POST
-  - O método doPost
-  - Sobre o método service
-  - O que aprendemos?
+- Trabalhando com POST e GET ✅
+  - Enviando parâmetros ✅
+  - Parâmetros da requisição ✅
+  - Métodos GET e POST ✅
+  - Formulário HTML ✅
+  - Diferença entre GET e POST ✅
+  - Apenas POST ✅
+  - O método doPost ✅
+  - Sobre o método service ✅
+  - O que aprendemos? ✅
+    - escrever uma servlet que atende apenas GET ou POST
+    - ler parâmetros da requisição dentro da servlet
+    - criar um formulário HTML usando as tags `form` e `input`
+    - enviando os dados pelo formulário através do POST
+    - diferença entre GET e POST
 
 - Definindo o nosso modelo
   - Definido modelo
