@@ -32,13 +32,15 @@
     - enviando os dados pelo formulário através do POST
     - diferença entre GET e POST
 
-- Definindo o nosso modelo
-  - Definido modelo
-  - Instância de HttpServletRequest
-  - Qual método?
-  - Listando empresas com servlets
-  - Sobre modelagem
-  - O que aprendemos?
+- Definindo o nosso modelo ✅
+  - Definido modelo ✅
+  - Instância de HttpServletRequest ✅
+  - Qual método? ✅
+  - Listando empresas com servlets ✅
+  - Sobre modelagem ✅
+  - O que aprendemos? ✅
+    - Nessa aula preparamos o modelo da nossa aplicação. O modelo ou domínio são as classes que representam o mundo real, aquilo que o cliente ou usuário da aplicação define.
+    - Para descobrir quais são as classes e funcionalidades do modelo o analista de requisitos conversa com o cliente e documenta cada funcionalidade.
 
 - Páginas dinâmicas com JSP
   - Primeiro JSP
