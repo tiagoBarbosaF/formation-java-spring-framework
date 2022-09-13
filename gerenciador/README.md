@@ -60,17 +60,32 @@
     - Obtemos o `RequestDispatcher` a partir do `HttpServletRequest`
     - Usamos a requisição para colocar ou pegar um atributo `(setAttribute(.., ..)` ou `getAttribute(..))`
 
-- JSTL e Expression Language
-  - Conhecendo Expression Language
-  - Expression Language
-  - Download do JSTL
-  - Conhecendo JSTL
-  - Sobre o JSTL
-  - Resultado com forEach
-  - Usando a taglib core
-  - Mais forEach
-  - Usando a taglib fmt
-  - O que aprendemos?
+- JSTL e Expression Language ✅
+  - Conhecendo Expression Language ✅
+  - Expression Language ✅
+  - Download do JSTL ✅
+  - Conhecendo JSTL ✅
+  - Sobre o JSTL ✅
+  - Resultado com forEach ✅
+  - Usando a taglib core ✅
+  - Mais forEach ✅
+  - Usando a taglib fmt ✅
+  - O que aprendemos? ✅
+    - Expression Language (EL) é uma linguagem simples e limitada para imprimir o resultado de uma expressão
+    - EL usa a sintaxe de `${ .. }`
+    - JSTL é a biblioteca padrão de tags
+    - JSTL não vem com Tomcat e precisamos copiar um JAR
+    - JSTL define 4 taglibs, as mais importantes são `core` e `fmt`
+    - a taglib `core` serve para controle de fluxo, fmt para formatação
+    - é preciso importar as taglib, `core` e `fmt` separadamente:
+      ```
+       <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+       <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>COPIAR CÓDIGO
+      ``` 
+    - JSTL e EL devem ser usados em conjunto
+    - vimos várias tags do `core` como `c:if`, `c:forEach` e `c:url`
+    - da fmt vimos a tag fmt:formatDate
+    - JARs ficam na pasta `WEB-INF/lib` do projeto
 
 - Redirecionando o fluxo
   - Quando o dispatcher não atende
