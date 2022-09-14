@@ -15,7 +15,7 @@ import java.util.List;
 @WebServlet(name = "ListaEmpresasServlet", value = "/listaEmpresas")
 public class ListaEmpresasServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException,
+    protected void service(HttpServletRequest request, HttpServletResponse response) throws IOException,
             ServletException {
         Banco banco = new Banco();
         List<Empresa> list = banco.getEmpresas();

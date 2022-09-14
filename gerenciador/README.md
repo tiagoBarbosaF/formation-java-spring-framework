@@ -87,15 +87,19 @@
     - da fmt vimos a tag fmt:formatDate
     - JARs ficam na pasta `WEB-INF/lib` do projeto
 
-- Redirecionando o fluxo
-  - Quando o dispatcher não atende
-  - Sobre o RequestDispatcher
-  - Código de resposta HTTP
-  - Redirecionamento pelo navegador
-  - O Botão F5
-  - Desafio: Código para redirecionamento
-  - Qual redirecionamento?
-  - O que aprendemos?
+- Redirecionando o fluxo ✅
+  - Quando o dispatcher não atende ✅
+  - Sobre o RequestDispatcher ✅
+  - Código de resposta HTTP ✅
+  - Redirecionamento pelo navegador ✅
+  - O Botão F5 ✅
+  - Desafio: Código para redirecionamento ✅
+  - Qual redirecionamento? ✅
+  - O que aprendemos? ✅
+    - o problema de reenviar uma requisição
+    - a diferença entre redirecionamento pelo cliente e servidor
+    - para redirecionar pelo navegador usamos o método `response.sendRedirect("endereço")`
+    - o código de resposta para redirecionamento HTTP é 30X (301 ou 302)
 
 - Completando o CRUD
   - Apresentando as funcionalidades

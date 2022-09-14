@@ -8,6 +8,12 @@
     <title>Lista Empresas</title>
 </head>
 <body>
+<c:if test="${not empty empresa}">
+    Empresa <span
+        style="font-family: 'Cascadia Code',serif; font-size: 40px; font-weight: bolder">${empresa}</span>
+    cadastrada com sucesso!
+</c:if>
+<br>
 <h3>Lista de Empresas:</h3>
 <jsp:useBean id="empresas" scope="request" type="java.util.List"/>
 <c:forEach items="${empresas}" var="empresa">
