@@ -101,15 +101,20 @@
     - para redirecionar pelo navegador usamos o método `response.sendRedirect("endereço")`
     - o código de resposta para redirecionamento HTTP é 30X (301 ou 302)
 
-- Completando o CRUD
-  - Apresentando as funcionalidades
-  - O que é CRUD?
-  - Removendo empresa
-  - Maneira correta de identificação
-  - Formulário de alteração
-  - Alterando empresa
-  - Achando o problema
-  - O que aprendemos?
+- Completando o CRUD ✅
+  - Apresentando as funcionalidades ✅
+  - O que é CRUD? ✅
+  - Removendo empresa ✅
+  - Maneira correta de identificação ✅
+  - Formulário de alteração ✅
+  - Alterando empresa ✅
+  - Achando o problema ✅
+  - O que aprendemos? ✅
+    - Como implementar a remoção de empresas
+    - Como implementar a edição de empresas
+    - Qual atributo correto devemos utilizar para identificação dos elementos `(id)`
+    - Como definir um `input` escondido
+    - O que significa CRUD
 
 - Deploy da aplicação
   - Conhecendo o web.xml
