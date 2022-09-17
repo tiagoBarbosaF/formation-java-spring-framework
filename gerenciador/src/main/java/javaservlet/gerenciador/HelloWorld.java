@@ -7,8 +7,14 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(urlPatterns = "/hello")
+@WebServlet(name = "HelloWorld",
+        description = "Página inicial",
+        urlPatterns = {"/hello"})
 public class HelloWorld extends HttpServlet {
+    public HelloWorld() {
+        System.out.println("Iniciando junto ao servlet!!");
+    }
+
     @Override protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         PrintWriter out = resp.getWriter();
         out.println("""

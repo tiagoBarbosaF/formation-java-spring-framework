@@ -116,12 +116,18 @@
     - Como definir um `input` escondido
     - O que significa CRUD
 
-- Deploy da aplicação
-  - Conhecendo o web.xml
-  - Sobre o mapeamento
-  - Inversão de controle
-  - Inversão de quê?!
-  - Fixando o funcionamento
-  - Deploy da aplicação
-  - Entendendo mais sobre deploy
-  - O que aprendemos?
+- Deploy da aplicação ✅
+  - Conhecendo o web.xml ✅
+  - Sobre o mapeamento ✅
+  - Inversão de controle ✅
+  - Inversão de quê?! ✅
+  - Fixando o funcionamento ✅
+  - Deploy da aplicação ✅
+  - Entendendo mais sobre deploy ✅
+  - O que aprendemos? ✅
+    - A importância do web.xml
+    - O que é inversão de controle
+    - Como o Tomcat trabalha por debaixo dos panos
+    - Como inicializar o Tomcat na linha de comando
+    - Como gerar o `WAR (Web ARchive)`
+    - Como fazemos o deploy da nossa aplicação
