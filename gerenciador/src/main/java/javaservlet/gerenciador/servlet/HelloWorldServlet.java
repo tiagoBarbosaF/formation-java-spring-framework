@@ -1,4 +1,4 @@
-package javaservlet.gerenciador;
+package javaservlet.gerenciador.servlet;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,8 +10,8 @@ import java.io.PrintWriter;
 @WebServlet(name = "HelloWorld",
         description = "Página inicial",
         urlPatterns = {"/hello"})
-public class HelloWorld extends HttpServlet {
-    public HelloWorld() {
+public class HelloWorldServlet extends HttpServlet {
+    public HelloWorldServlet() {
         System.out.println("Iniciando junto ao servlet!!");
     }
 

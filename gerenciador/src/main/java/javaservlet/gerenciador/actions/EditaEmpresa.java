@@ -1,24 +1,24 @@
-package javaservlet.gerenciador;
+package javaservlet.gerenciador.actions;
 
 import javaservlet.gerenciador.model.Banco;
 import javaservlet.gerenciador.model.Empresa;
 
-import javax.servlet.*;
-import javax.servlet.http.*;
-import javax.servlet.annotation.*;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@WebServlet(name = "AlteraEmpresaServlet", value = "/alteraEmpresa")
-public class AlteraEmpresaServlet extends HttpServlet {
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        String nomeEmpresa = request.getParameter("nome");
-        String paramData = request.getParameter("data");
-        String paramId = request.getParameter("id");
+public class EditaEmpresa {
+
+    public void execute(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("Editando empresa na nova classe");
+        String nomeEmpresa = req.getParameter("nome");
+        String paramData = req.getParameter("data");
+        String paramId = req.getParameter("id");
         Integer id = Integer.valueOf(paramId);
 
         Date dataAbertura;
@@ -34,6 +34,6 @@ public class AlteraEmpresaServlet extends HttpServlet {
         empresa.setNome(nomeEmpresa);
         empresa.setDataAbertura(dataAbertura);
 
-        response.sendRedirect("listaEmpresas");
+        resp.sendRedirect("entrada?action=ListaEmpresas");
     }
 }

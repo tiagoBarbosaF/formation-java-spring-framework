@@ -75,7 +75,7 @@
     - EL usa a sintaxe de `${ .. }`
     - JSTL é a biblioteca padrão de tags
     - JSTL não vem com Tomcat e precisamos copiar um JAR
-    - JSTL define 4 taglibs, as mais importantes são `core` e `fmt`
+    - JSTL define 4 `taglibs`, as mais importantes são `core` e `fmt`
     - a taglib `core` serve para controle de fluxo, fmt para formatação
     - é preciso importar as taglib, `core` e `fmt` separadamente:
       ```
@@ -131,3 +131,27 @@
     - Como inicializar o Tomcat na linha de comando
     - Como gerar o `WAR (Web ARchive)`
     - Como fazemos o deploy da nossa aplicação
+
+---
+
+# Java Servlet: autenticação, autorização, padrão MVC
+
+### Steps:
+
+- Criando o controlador ✅
+  - Uma única servlet ✅
+  - O que é servlet? ✅
+  - Implementando o controlador ✅
+  - Função do controlador ✅
+  - Separando ações ✅
+  - Qual camada? ✅
+  - O que aprendemos? ✅
+    - Reorganizamos a nossa aplicação em 3 pacotes: `acao`, `modelo` e `servlet`. Além disso, criamos uma servlet que recebe todas as requisições da aplicação (quase todas). A ideia é centralizar o acesso através dessa servlet, para ela decidir qual ação executar.
+    - Para tal, usamos um parâmetro da requisição que define o nome da ação. Por isso, foi necessário alterar todos os links e formulários para enviar sempre esse parâmetro.
+
+- O padrão MVC
+- Formulário de login
+- HttpSession
+- Aplicando filtros
+- Introdução ao Web Services
+- Deploy no Jetty
