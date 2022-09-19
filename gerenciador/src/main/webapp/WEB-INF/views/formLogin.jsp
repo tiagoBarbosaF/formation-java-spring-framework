@@ -8,14 +8,14 @@
 </head>
 <body>
 <form action="${linkEntradaServlet}" method="post">
-    <label>Nome:
-        <input type="text" name="nome"/>
+    <label>Login:
+        <input type="text" name="login"/>
     </label><br><br>
-    <label>Data abertura:
-        <input type="text" name="data">
+    <label>Senha:
+        <input type="password" name="senha">
     </label><br><br>
     <label>
-        <input type="hidden" name="action" value="NovaEmpresa"/>
+        <input type="hidden" name="action" value="Login"/>
     </label>
     <input type="submit" value="Enviar">
 </form>

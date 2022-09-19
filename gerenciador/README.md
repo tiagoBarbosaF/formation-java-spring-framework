@@ -168,7 +168,20 @@
     - MVC facilita a manutenção e evolução da aplicação
     - Os JSPs devem ficar "escondidos" na pasta **WEB-INF**, pois dependem da ação
 
-- Formulário de login
+- Formulário de login ✅
+  - Preparando modelo e view ✅
+  - Verificando o login ✅
+  - O que mudou? ✅
+  - Login funciona? ✅
+  - Autenticação e autorização ✅
+  - Para saber mais: O padrão JAAS ✅
+  - Faça como eu fiz na aula ✅
+  - O que aprendemos? ✅
+    - A representar o usuário através de uma classe `Usuario`
+    - A criar um formulário de login
+    - A criar a ação para chamar o formulário
+    - A criar a ação verificar o login e a senha
+
 - HttpSession
 - Aplicando filtros
 - Introdução ao Web Services

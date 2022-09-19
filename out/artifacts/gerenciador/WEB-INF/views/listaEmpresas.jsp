@@ -1,5 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%--<c:url value="/entrada?action=RemoveEmpresa" var="removeEmpresa"/>--%>
+<%--<c:url value="/entrada?action=MostraEmpresa" var="mostraEmpresa"/>--%>
 <%@ page import="javaservlet.gerenciador.model.Empresa" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
