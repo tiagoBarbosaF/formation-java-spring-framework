@@ -3,7 +3,6 @@ package javaservlet.gerenciador.actions;
 import javaservlet.gerenciador.model.Banco;
 import javaservlet.gerenciador.model.Empresa;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -12,9 +11,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class EditaEmpresa {
+public class EditaEmpresa implements Acao{
 
-    public void execute(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    public String execute(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("Editando empresa na nova classe");
         String nomeEmpresa = req.getParameter("nome");
         String paramData = req.getParameter("data");
@@ -34,6 +33,6 @@ public class EditaEmpresa {
         empresa.setNome(nomeEmpresa);
         empresa.setDataAbertura(dataAbertura);
 
-        resp.sendRedirect("entrada?action=ListaEmpresas");
+        return "redirect:entrada?action=ListaEmpresas";
     }
 }

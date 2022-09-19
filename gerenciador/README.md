@@ -149,7 +149,25 @@
     - Reorganizamos a nossa aplicação em 3 pacotes: `acao`, `modelo` e `servlet`. Além disso, criamos uma servlet que recebe todas as requisições da aplicação (quase todas). A ideia é centralizar o acesso através dessa servlet, para ela decidir qual ação executar.
     - Para tal, usamos um parâmetro da requisição que define o nome da ação. Por isso, foi necessário alterar todos os links e formulários para enviar sempre esse parâmetro.
 
-- O padrão MVC
+- O padrão MVC ✅
+  - Centralizando o redirecionamento ✅
+  - Refatorando todas as acoes ✅
+  - Escondendo JSP ✅
+  - O diretório WEB-INF ✅
+  - Esconder JSPs? ✅
+  - Melhorando o controlador ✅
+  - Resumo sobre o padrão MVC ✅
+  - Sobre o MVC ✅
+  - O que aprendemos? ✅
+    - MVC significa _Model-View-Controller_
+    - MVC divide a aplicação em 3 camadas lógicas
+    - Cada camada tem a sua responsabilidade
+    - O controlador central e as ações fazem parte da camada _Controller_, que define o fluxo da aplicação
+    - Os JSPs fazem parte da camada _View_, que define a “interface”
+    - As classes do modelo fazem parte da camada _Model_, que encapsula as regras de negócio
+    - MVC facilita a manutenção e evolução da aplicação
+    - Os JSPs devem ficar "escondidos" na pasta **WEB-INF**, pois dependem da ação
+
 - Formulário de login
 - HttpSession
 - Aplicando filtros
