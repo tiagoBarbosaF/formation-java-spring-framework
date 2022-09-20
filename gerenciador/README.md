@@ -182,7 +182,29 @@
     - A criar a ação para chamar o formulário
     - A criar a ação verificar o login e a senha
 
-- HttpSession
+- HttpSession ✅
+  - Trabalhando com sessão ✅
+  - Detectando o problema ✅
+  - A solução dos nossos problemas ✅
+  - Testando o login ✅
+  - Autorizando o acesso ✅
+  - Implementando o logout ✅
+  - Sabendo as diferenças ✅
+  - Para saber mais: Timeout da sessão ✅
+  - Faça como eu fiz na aula ✅
+  - O que aprendemos? ✅
+    - Por padrão, o navegador não envia nenhuma identificação sobre o usuário
+    - Quando o Tomcat recebe uma nova requisição (sem identificação), gerará um ID
+    - O ID fica salvo no cookie de nome `JSessionID`
+    - O ID é um _hash_ (número aleatório)
+    - O cookie é anexado à resposta HTTP
+    - O navegador reenvia o cookie automaticamente nas próximas requisições
+    - O Tomcat gera, além do ID, um objeto chamado `HttpSession`
+    - A vida do objeto `HttpSession` fica atrelado ao ID
+    - Para ter acesso à `HttpSession`, basta chamar `request.getSession()`
+    - Usamos a `HttpSession` para guardar dados sobre o usuário (login, permissões, carrinho de compra)
+    - A `HttpSession` tem um ciclo de vida e será automaticamente invalidada
+
 - Aplicando filtros
 - Introdução ao Web Services
 - Deploy no Jetty
