@@ -217,13 +217,13 @@
   - O que aprendemos? ✅
     - Um Filter e Servlet são bem-parecidos
     - Comparado com Servlet, o Filter consegue parar o fluxo
-    - Para escrever um filtro, devemos implementar a interface javax.servlet.Filter
-    - Para mapear o filtro, usamos a anotação @WebFilter ou o web.xml
+    - Para escrever um filtro, devemos implementar a interface `javax.servlet.Filter`
+    - Para mapear o filtro, usamos a anotação `@WebFilter` ou o **web.xml**
     - Vários filtros podem funcionar numa cadeia (um, chama o próximo, mas todos são independentes)
-    - Para definir a ordem de execução, devemos mapear os filtros no web.xml
-    - Um filtro recebe como parâmetro, do método doFilter, um ServletRequest e um ServletResponse
-    - Ambos, ServletRequest e ServletResponse, são interfaces mais genéricas do que HttpServletRequest e HttpServletResponse
-    - Para chamar o próximo filtro na cadeia, usamos o objeto FilterChain
+    - Para definir a ordem de execução, devemos mapear os filtros no **web.xml**
+    - Um filtro recebe como parâmetro, do método `doFilter`, um `ServletRequest` e um `ServletResponse`
+    - Ambos, `ServletRequest` e `ServletResponse`, são interfaces mais genéricas do que `HttpServletRequest` e `HttpServletResponse`
+    - Para chamar o próximo filtro na cadeia, usamos o objeto `FilterChain`
 
 - Introdução ao Web Services
 - Deploy no Jetty
