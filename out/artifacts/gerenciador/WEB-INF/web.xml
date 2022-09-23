@@ -6,4 +6,31 @@
     <welcome-file-list>
         <welcome-file>/hello</welcome-file>
     </welcome-file-list>
+
+    <filter>
+        <filter-name>monitorFilter</filter-name>
+        <filter-class>javaservlet.gerenciador.servlet.MonitorFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>monitorFilter</filter-name>
+        <url-pattern>/entrada</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>autorizacaoFilter</filter-name>
+        <filter-class>javaservlet.gerenciador.servlet.AutorizacaoFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>autorizacaoFilter</filter-name>
+        <url-pattern>/entrada</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>controllerFilter</filter-name>
+        <filter-class>javaservlet.gerenciador.servlet.ControllerFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>controllerFilter</filter-name>
+        <url-pattern>/entrada</url-pattern>
+    </filter-mapping>
 </web-app>

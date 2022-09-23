@@ -205,6 +205,25 @@
     - Usamos a `HttpSession` para guardar dados sobre o usuário (login, permissões, carrinho de compra)
     - A `HttpSession` tem um ciclo de vida e será automaticamente invalidada
 
-- Aplicando filtros
+- Aplicando filtros ✅
+  - Primeiro filtro ✅
+  - Filter x Servlet ✅
+  - Filtro de autorização ✅
+  - Ordem de execução ✅
+  - Anotações x web.xml ✅
+  - Onde está o problema? ✅
+  - Para saber mais: Interceptor ou Filter ✅
+  - Faça como eu fiz na aula ✅
+  - O que aprendemos? ✅
+    - Um Filter e Servlet são bem-parecidos
+    - Comparado com Servlet, o Filter consegue parar o fluxo
+    - Para escrever um filtro, devemos implementar a interface javax.servlet.Filter
+    - Para mapear o filtro, usamos a anotação @WebFilter ou o web.xml
+    - Vários filtros podem funcionar numa cadeia (um, chama o próximo, mas todos são independentes)
+    - Para definir a ordem de execução, devemos mapear os filtros no web.xml
+    - Um filtro recebe como parâmetro, do método doFilter, um ServletRequest e um ServletResponse
+    - Ambos, ServletRequest e ServletResponse, são interfaces mais genéricas do que HttpServletRequest e HttpServletResponse
+    - Para chamar o próximo filtro na cadeia, usamos o objeto FilterChain
+
 - Introdução ao Web Services
 - Deploy no Jetty

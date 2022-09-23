@@ -11,9 +11,6 @@ import java.io.PrintWriter;
         description = "Página inicial",
         urlPatterns = {"/hello"})
 public class HelloWorldServlet extends HttpServlet {
-    public HelloWorldServlet() {
-        System.out.println("Iniciando junto ao servlet!!");
-    }
 
     @Override protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         PrintWriter out = resp.getWriter();
@@ -24,7 +21,5 @@ public class HelloWorldServlet extends HttpServlet {
                     </body>
                 </html>
                 """);
-
-        System.out.println("Testing print console class servlet.");
     }
 }
