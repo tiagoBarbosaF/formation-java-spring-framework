@@ -254,3 +254,57 @@
     - Que a especificação Servlet faz parte do Java EE/Jakarta EE
     - Que, ao usar Servlet, programamos independentemente do servidor/container
     - A diferença entre servlet container e application server
+
+---
+
+# Maven: gerenciamento de dependências e build de aplicação Java
+
+### Steps:
+
+- Conhecendo o Maven ✅
+  - Build e dependências em uma aplicação Java ✅
+  - Ferramentas de build ✅
+  - Instalação do Maven ✅
+  - Utilização do Maven ✅
+  - O que aprendemos? ✅
+    - As dificuldades de se realizar manualmente o build de uma aplicação Java;
+    - As dificuldades de se gerenciar manualmente as dependências de uma aplicação Java;
+    - O que é o Maven;
+    - Como instalar e executar o Maven.
+
+- Projetos com Maven
+  - Criando um projeto com Maven
+  - GroupId de um projeto com Maven
+  - Estrutura de um projeto com Maven
+  - Source folders
+  - Adicionando Maven a um projeto existente
+  - Projeto sem Maven
+  - O que aprendemos?
+
+
+- Dependências no Maven
+  - Gerenciando dependências no Maven
+  - Pesquisando por dependências
+  - Repositório central
+  - Alterando o repositório remoto de dependências
+  - Repositórios remotos
+  - O que aprendemos?
+
+
+- Build no Maven
+  - Processo de build no Maven
+  - Goals do Maven
+  - Gerando o artefato do build
+  - Empacotando a aplicação
+  - Faça como eu fiz
+  - O que aprendemos?
+
+
+- Outros recursos
+  - Plugins
+  - Plugins do Maven
+  - Proxy
+  - Módulos
+  - Modularização de projetos
+  - Projeto separado em módulos
+  - O que aprendemos?
