@@ -225,5 +225,22 @@
     - Ambos, `ServletRequest` e `ServletResponse`, são interfaces mais genéricas do que `HttpServletRequest` e `HttpServletResponse`
     - Para chamar o próximo filtro na cadeia, usamos o objeto `FilterChain`
 
-- Introdução ao Web Services
+- Introdução ao Web Services ✅
+  - O que é um Web Service? ✅
+  - Serviço com JSON ✅
+  - Retornar HTML? ✅
+  - Serviço com XML ✅
+  - Cliente do serviço ✅
+  - Bibliotecas ✅
+  - O que aprendemos? ✅
+    - Que um _web service_ usa HTML, JSON ou XML como retorno
+    - Que um _web service_ oferece alguma funcionalidade para seu cliente
+    - Que um _web service_ é útil quando precisa oferecer uma funcionalidade para cliente diferentes
+    - Que para o _web service_ não importa se o cliente foi escrito em Java, C# ou outra linguagem, pois usamos um protocolo e formatos independentes da plataforma
+    - Como gerar JSON no código Java através de GSON
+    - Como gerar XML no código Java através de XStream
+    - Como escrever um web service através de um HttpServlet
+    - Como criar um cliente HTTP a partir do código Java, usando a biblioteca `Apache HttpClient`
+    - Como gerar JSON ou XML a partir do cabeçalho `Accept` da requisição
+
 - Deploy no Jetty
