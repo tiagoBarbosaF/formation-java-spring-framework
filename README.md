@@ -3,4 +3,4 @@
 ### Steps:
 
 - java servlet ✅
-- java servlet: autenticação, autorização, padrão mvc
+- java servlet: autenticação, autorização, padrão mvc ✅

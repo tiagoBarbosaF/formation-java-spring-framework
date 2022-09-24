@@ -243,4 +243,14 @@
     - Como criar um cliente HTTP a partir do código Java, usando a biblioteca `Apache HttpClient`
     - Como gerar JSON ou XML a partir do cabeçalho `Accept` da requisição
 
-- Deploy no Jetty
+- Deploy no Jetty ✅
+  - Servlet Container Jetty ✅
+  - Observando as diferenças ✅
+  - Especificação das Servlets ✅
+  - Funcionamento de um Servlet Container ✅
+  - O que aprendemos? ✅
+    - A disponibilizar a nossa aplicação no _servlet_ container **Jetty**
+    - Que Servlet é uma especificação
+    - Que a especificação Servlet faz parte do Java EE/Jakarta EE
+    - Que, ao usar Servlet, programamos independentemente do servidor/container
+    - A diferença entre servlet container e application server
