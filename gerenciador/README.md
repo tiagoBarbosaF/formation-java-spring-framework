@@ -272,14 +272,17 @@
     - O que é o Maven;
     - Como instalar e executar o Maven.
 
-- Projetos com Maven
-  - Criando um projeto com Maven
-  - GroupId de um projeto com Maven
-  - Estrutura de um projeto com Maven
-  - Source folders
-  - Adicionando Maven a um projeto existente
-  - Projeto sem Maven
-  - O que aprendemos?
+- Projetos com Maven ✅
+  - Criando um projeto com Maven ✅
+  - GroupId de um projeto com Maven ✅
+  - Estrutura de um projeto com Maven ✅
+  - Source folders ✅
+  - Adicionando Maven a um projeto existente ✅
+  - Projeto sem Maven ✅
+  - O que aprendemos? ✅
+    - A criar uma aplicação com Maven;
+    - A entender a estrutura de diretórios de uma aplicação com Maven;
+    - A migrar uma aplicação para o Maven.
 
 
 - Dependências no Maven
