@@ -296,13 +296,16 @@
     - Como pesquisar por dependências no repositório central do Maven;
     - Como configurar outros repositórios remotos.
 
-- Build no Maven
-  - Processo de build no Maven
-  - Goals do Maven
-  - Gerando o artefato do build
-  - Empacotando a aplicação
-  - Faça como eu fiz
-  - O que aprendemos?
+- Build no Maven ✅
+  - Processo de build no Maven ✅
+  - Goals do Maven ✅
+  - Gerando o artefato do build ✅
+  - Empacotando a aplicação ✅
+  - O que aprendemos? ✅
+    - A realizar o build da aplicação com Maven;
+    - A utilizar o comando `mvn nome-do-goal` para realizar o build;
+    - Alguns goals do Maven, como `compile`, `test` e `package`;
+    - A personalizar o artefato de build gerado pelo Maven.
 
 
 - Outros recursos
