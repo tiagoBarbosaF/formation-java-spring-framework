@@ -1,5 +1,17 @@
 # Java e JDBC: trabalhando com um banco de dados
 
+> Obs.: O projeto contém o arquivo de `docker-compose` configurado para utilizar o `MySql`. 
+> 
+Utilize o comando abaixo para subir o container com o banco de dados:
+- Subir o container:
+  ```
+  docker compose up
+  ```
+- Desligar o container:
+  ```
+  docker compose down
+  ```
+
 ### Steps:
 
 - Introdução ao JDBC e o padrão Factory ✅
@@ -19,15 +31,21 @@
       - O método `getConnection` recebe uma string de conexão JDBC, que define a URL, usuário, senha, etc
 
 
-- Executando comandos SQL no Java
-  - Listagem com Statement
-  - Connection, Statement e ResultSet
-  - Criando a ConnectionFactory
-  - Factory Pattern
-  - Inserindo com Statement
-  - Retorno do método execute()
-  - Removendo dados
-  - O que aprendemos?
+- Executando comandos SQL no Java ✅
+  - Listagem com Statement ✅
+  - Connection, Statement e ResultSet ✅
+  - Criando a ConnectionFactory ✅
+  - Factory Pattern ✅
+  - Inserindo com Statement ✅
+  - Retorno do método execute() ✅
+  - Removendo dados ✅
+  - O que aprendemos? ✅
+    - Para simplificar e encapsular a criação da conexão, devemos usar uma classe `ConnectionFactory`
+      - A classe `ConnectionFactory` segue o padrão de criação _Factory Method_
+      - O _Factory Method_ encapsula a criação de um objeto
+    - Para executar um comando SQL, podemos usar a interface `java.sql.Statement`
+      - O método `execute` envia o comando para o banco de dados
+      - Dependendo do comando SQL, podemos recuperar a chave primária ou os registros selecionados
 
 
 - Evitando SQL Injection
