@@ -307,12 +307,14 @@
     - Alguns goals do Maven, como `compile`, `test` e `package`;
     - A personalizar o artefato de build gerado pelo Maven.
 
-
-- Outros recursos
-  - Plugins
-  - Plugins do Maven
-  - Proxy
-  - Módulos
-  - Modularização de projetos
-  - Projeto separado em módulos
-  - O que aprendemos?
+- Outros recursos ✅
+  - Plugins ✅
+  - Plugins do Maven ✅
+  - Proxy ✅
+  - Módulos ✅
+  - Modularização de projetos ✅
+  - Projeto separado em módulos ✅
+  - O que aprendemos? ✅
+    - A utilizar plugins do Maven;
+    - A como configurar um _proxy_ no Maven;
+    - A como configurar uma aplicação modularizada no Maven.
