@@ -285,14 +285,16 @@
     - A migrar uma aplicação para o Maven.
 
 
-- Dependências no Maven
-  - Gerenciando dependências no Maven
-  - Pesquisando por dependências
-  - Repositório central
-  - Alterando o repositório remoto de dependências
-  - Repositórios remotos
-  - O que aprendemos?
-
+- Dependências no Maven ✅
+  - Gerenciando dependências no Maven ✅
+  - Pesquisando por dependências ✅
+  - Repositório central ✅
+  - Alterando o repositório remoto de dependências ✅
+  - Repositórios remotos ✅
+  - O que aprendemos? ✅
+    - Como declarar as dependências de uma aplicação;
+    - Como pesquisar por dependências no repositório central do Maven;
+    - Como configurar outros repositórios remotos.
 
 - Build no Maven
   - Processo de build no Maven
