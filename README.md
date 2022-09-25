@@ -4,4 +4,5 @@
 
 - java servlet ✅
 - java servlet: autenticação, autorização, padrão mvc ✅
-- maven
+- maven ✅
+- java jdbc
