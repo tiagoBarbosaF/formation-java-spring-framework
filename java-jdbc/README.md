@@ -48,13 +48,16 @@ Utilize o comando abaixo para subir o container com o banco de dados:
       - Dependendo do comando SQL, podemos recuperar a chave primária ou os registros selecionados
 
 
-- Evitando SQL Injection
-  - Usando PreparedStatement
-  - Sobre o PreparedStatement
-  - Listagem e remoção
-  - Trocando o Statement
-  - O que aprendemos?
-
+- Evitando SQL Injection ✅
+  - Usando PreparedStatement ✅
+  - Sobre o PreparedStatement ✅
+  - Listagem e remoção ✅
+  - Trocando o Statement ✅
+  - O que aprendemos? ✅
+    - Ao executar SQL como `Statement`, temos um risco de segurança, chamado **_SQL Injection_**
+      - _SQL Injection_ nada mais é do que passar um novo comando SQL como parâmetro
+    - Para evitar _SQL Injection_, devemos usar a interface `PreparedStatement`
+      - Diferentemente do `Statement`, o `PreparedStatement` trata (_sanitiza_) cada parâmetro do comando SQL
 
 - Controle de transação
   - Assumindo o controle
