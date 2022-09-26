@@ -59,14 +59,20 @@ Utilize o comando abaixo para subir o container com o banco de dados:
     - Para evitar _SQL Injection_, devemos usar a interface `PreparedStatement`
       - Diferentemente do `Statement`, o `PreparedStatement` trata (_sanitiza_) cada parâmetro do comando SQL
 
-- Controle de transação
-  - Assumindo o controle
-  - JDBC e transações
-  - Lidando com commit e rollback
-  - Auto-Commit
-  - Usando o try-with-resources
-  - Try com recursos e o close
-  - O que aprendemos?
+- Controle de transação ✅
+  - Assumindo o controle ✅
+  - JDBC e transações ✅
+  - Lidando com commit e rollback ✅
+  - Auto-Commit ✅
+  - Usando o try-with-resources ✅
+  - Try com recursos e o close ✅
+  - O que aprendemos? ✅
+    - O banco de dados oferece um recurso chamado de `transação`, para juntar várias alterações como unidade de trabalho
+      - Se uma alteração falha, nenhuma alteração é aplicada (é feito um _rollback_ da transação)
+      - Todas as alterações precisam funcionar para serem aceites (é feito um `commit`)
+    - `commit` e `rollback` são operações clássicas de transações
+    - Para garantir o fechamento dos recursos, existe no Java uma cláusula _try-with-resources_
+      - O recurso em questão deve usar a interface `Autoclosable`
 
 
 - Escalabilidade com pool de conexões
