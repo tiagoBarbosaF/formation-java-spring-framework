@@ -75,15 +75,20 @@ Utilize o comando abaixo para subir o container com o banco de dados:
       - O recurso em questão deve usar a interface `Autoclosable`
 
 
-- Escalabilidade com pool de conexões
-  - Download dos JARs
-  - O que é pool e datasource?
-  - Um único cliente
-  - Criando o pool de conexões
-  - Diversos clientes
-  - Testando o pool de conexões
-  - Pool com conexões ocupadas
-  - O que aprendemos?
+- Escalabilidade com pool de conexões ✅
+  - Download dos JARs ✅
+  - O que é pool e datasource? ✅
+  - Um único cliente ✅
+  - Criando o pool de conexões ✅
+  - Diversos clientes ✅
+  - Testando o pool de conexões ✅
+  - Pool com conexões ocupadas ✅
+  - O que aprendemos? ✅
+    - É boa prática usar um pool de conexões
+    - Um _pool_ de conexões administra/controla a quantidade de conexões abertas
+      - Normalmente tem um mínimo e máximo de conexões
+    - Como existe uma interface que representa a conexão (`java.sql.Connection`), também existe uma interface que representa o pool de conexões (`javax.sql.DataSource`)
+    - **C3PO** é uma implementação Java de um _pool_ de conexão
 
 
 - Camada de persistência com DAO
