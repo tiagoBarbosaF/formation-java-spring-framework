@@ -91,13 +91,19 @@ Utilize o comando abaixo para subir o container com o banco de dados:
     - **C3PO** é uma implementação Java de um _pool_ de conexão
 
 
-- Camada de persistência com DAO
-  - Criando o modelo Produto
-  - DAO com inserção do produto
-  - Vantagens do DAO
-  - Listando no ProdutoDAO
-  - DAO's e construtor
-  - O que aprendemos?
+- Camada de persistência com DAO ✅
+  - Criando o modelo Produto ✅
+  - DAO com inserção do produto ✅
+  - Vantagens do DAO ✅
+  - Listando no ProdutoDAO ✅
+  - DAO's e construtor ✅
+  - O que aprendemos? ✅
+    - Para cada tabela de domínio, temos uma classe de domínio
+      - Por exemplo, a tabela `produtos` tem uma classe `Produto` associada
+      - Objetos dessa classe representa um registro na tabela
+    - Para acessar a tabela, usaremos um padrão chamado **_Data Access Object_** (**DAO**)
+      - Para cada classe de domínio, existe um DAO. Por exemplo, a classe `Produto` possui um `ProdutoDao`
+      - Todos os métodos JDBC relacionados com o produto devem estar encapsulados no `ProdutoDao`
 
 
 - Evitando queries N + 1
