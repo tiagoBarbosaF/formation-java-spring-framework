@@ -10,7 +10,7 @@ public class TestDeleteProducts {
         Connection connection = connectionFactory.getConnection();
 
         PreparedStatement preparedStatement = connection.prepareStatement("""
-                DELETE FROM PRODUTO WHERE ID = 18;
+                DELETE FROM PRODUTO WHERE ID > 14;
                 """);
         preparedStatement.execute();
 

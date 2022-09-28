@@ -1,5 +1,6 @@
 package br.com.tiagobarbosa.java.jdbc.dao;
 
+import br.com.tiagobarbosa.java.jdbc.modelo.Categoria;
 import br.com.tiagobarbosa.java.jdbc.modelo.Produto;
 
 import java.sql.*;
@@ -50,6 +51,34 @@ public class ProdutoDAO {
                 """;
 
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+            preparedStatement.execute();
+
+            try (ResultSet resultSet = preparedStatement.getResultSet()) {
+                while (resultSet.next()) {
+                    Produto produto = new Produto(resultSet.getInt(1), resultSet.getString(2), resultSet.getString(3));
+                    produtos.add(produto);
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return produtos;
+    }
+
+    public List<Produto> search(Categoria categoria) {
+        List<Produto> produtos = new ArrayList<>();
+        String sql = """
+                SELECT
+                    P.ID,
+                    P.NOME,
+                    DESCRICAO
+                FROM PRODUTO P
+                WHERE
+                    P.categoria_id = ?
+                """;
+
+        try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+            preparedStatement.setInt(1, categoria.getId());
             preparedStatement.execute();
 
             try (ResultSet resultSet = preparedStatement.getResultSet()) {

@@ -9,7 +9,7 @@ import java.util.List;
 
 public class TestInsertWithModelProduct {
     public static void main(String[] args) throws SQLException {
-        Produto produto = new Produto("Console", "Nintendo Switch LED");
+        Produto produto = new Produto("Móveis", "Guarda-roupas com espelho");
 
         try (Connection connection = new ConnectionFactory().getConnection()) {
             ProdutoDAO produtoDAO = new ProdutoDAO(connection);
