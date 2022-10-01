@@ -33,7 +33,7 @@ public class CategoriaDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
         return categorias;
     }
@@ -65,7 +65,7 @@ public class CategoriaDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
         return categorias;
     }

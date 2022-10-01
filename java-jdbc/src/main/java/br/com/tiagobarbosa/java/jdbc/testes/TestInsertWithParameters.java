@@ -1,4 +1,6 @@
-package br.com.tiagobarbosa.java.jdbc;
+package br.com.tiagobarbosa.java.jdbc.testes;
+
+import br.com.tiagobarbosa.java.jdbc.factory.ConnectionFactory;
 
 import java.sql.*;
 

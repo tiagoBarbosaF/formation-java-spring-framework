@@ -1,5 +1,6 @@
-package br.com.tiagobarbosa.java.jdbc;
+package br.com.tiagobarbosa.java.jdbc.testes;
 
+import br.com.tiagobarbosa.java.jdbc.factory.ConnectionFactory;
 import br.com.tiagobarbosa.java.jdbc.dao.CategoriaDAO;
 import br.com.tiagobarbosa.java.jdbc.modelo.Categoria;
 import br.com.tiagobarbosa.java.jdbc.modelo.Produto;

@@ -1,4 +1,4 @@
-package br.com.tiagobarbosa.java.jdbc;
+package br.com.tiagobarbosa.java.jdbc.factory;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
@@ -20,7 +20,11 @@ public class ConnectionFactory {
         this.dataSource = comboPooledDataSource;
     }
 
-    public Connection getConnection() throws SQLException {
-        return this.dataSource.getConnection();
+    public Connection getConnection(){
+        try {
+            return this.dataSource.getConnection();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
