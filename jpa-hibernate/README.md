@@ -13,15 +13,17 @@
     - A história de criação do Hibernate e da JPA;
     - Como criar uma aplicação Maven e adicionar o Hibernate como dependência.
 
-- Configurações e EntityManager
-  - Arquivo persistence.xml
-  - Persistence Unit
-  - Mapeando uma entidade
-  - Entidades da JPA
-  - Persistindo uma entidade
-  - Transação
-  - O que aprendemos?
-
+- Configurações e EntityManager ✅
+  - Arquivo persistence.xml ✅
+  - Persistence Unit ✅
+  - Mapeando uma entidade ✅
+  - Entidades da JPA ✅
+  - Persistindo uma entidade ✅
+  - Transação ✅
+  - O que aprendemos? ✅
+    - Como configurar a JPA via arquivo `persistence.xml`;
+    - Como mapear entidades JPA;
+    - Como utilizar o `EntityManager` para persistir entidades no banco de dados.
 
 - Mapeando entidades
   - Organizando o código
