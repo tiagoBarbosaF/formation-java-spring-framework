@@ -25,13 +25,16 @@
     - Como mapear entidades JPA;
     - Como utilizar o `EntityManager` para persistir entidades no banco de dados.
 
-- Mapeando entidades
-  - Organizando o código
-  - Mais mapeamentos
-  - Tipos de atributos
-  - Mapeando relacionamentos
-  - Cardinalidade do relacionamento
-  - O que aprendemos?
+- Mapeando entidades ✅
+  - Organizando o código ✅
+  - Mais mapeamentos ✅
+  - Tipos de atributos ✅
+  - Mapeando relacionamentos ✅
+  - Cardinalidade do relacionamento ✅
+  - O que aprendemos? ✅
+    - Como escrever uma classe `DAO` utilizando a JPA;
+    - Como mapear atributos do tipo Enum em uma entidade;
+    - Como mapear um relacionamento entre entidades.
 
 
 - Ciclo de vida de uma entidade
