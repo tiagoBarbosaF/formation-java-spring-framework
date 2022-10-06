@@ -10,15 +10,19 @@ public class Categoria {
     private Long id;
     private String name;
 
-    public Categoria(String name) {
-        this.name = name;
-    }
-
     public Categoria() {
 
     }
 
+    public Categoria(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

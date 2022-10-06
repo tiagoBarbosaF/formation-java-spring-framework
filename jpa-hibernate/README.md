@@ -37,13 +37,17 @@
     - Como mapear um relacionamento entre entidades.
 
 
-- Ciclo de vida de uma entidade
-  - Estados no insert da entidade
-  - Estados no update da entidade
-  - Método merge
-  - Estados no delete da entidade
-  - Removendo uma entidade
-  - O que aprendemos?
+- Ciclo de vida de uma entidade ✅
+  - Estados no insert da entidade ✅
+  - Estados no update da entidade ✅
+  - Método merge ✅
+  - Estados no delete da entidade ✅
+  - Removendo uma entidade ✅
+  - O que aprendemos? ✅
+    - Como funciona o ciclo de vida de entidades JPA;
+    - As transições de estados de uma entidade ao ser persistida;
+    - As transições de estados de uma entidade ao ser atualizada;
+    - As transições de estados de uma entidade ao ser removida.
 
 
 - Consultas com JPQL
