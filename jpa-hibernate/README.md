@@ -50,10 +50,14 @@
     - As transições de estados de uma entidade ao ser removida.
 
 
-- Consultas com JPQL
-  - Consultando entidades
-  - Consultas com filtros
-  - Consultas com JPQL
-  - Limitando dados de uma consulta
-  - Carregando parte da entidade
-  - O que aprendemos?
+- Consultas com JPQL ✅
+  - Consultando entidades ✅
+  - Consultas com filtros ✅
+  - Consultas com JPQL ✅
+  - Limitando dados de uma consulta ✅
+  - Carregando parte da entidade ✅
+  - O que aprendemos? ✅
+    - Como realizar consultas com o método `find` do `Entity Manager`;
+    - Como realizar consultas JPQL;
+    - Como filtrar dados em consultas JPQL;
+    - Como retornar apenas parte de uma entidade em uma consulta JPQL.

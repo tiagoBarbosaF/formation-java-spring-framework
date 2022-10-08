@@ -28,6 +28,12 @@ public class Produto {
         this.categoria = categoria;
     }
 
+    @Override
+    public String toString() {
+        return String.format("%nProduto%nId: %d%nNome: %s%nDescrição: %s%nPreço: %s%nCategoria: %s%n", this.id, this.nome,
+                this.descricao, this.preco, categoria.getName());
+    }
+
     public Long getId() {
         return id;
     }
