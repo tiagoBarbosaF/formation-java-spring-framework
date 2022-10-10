@@ -1,4 +1,4 @@
-# Persistência com JPA: Hibernate
+# Persistência com JPA: Hibernate — Parte 01
 
 ### Steps:
 
@@ -60,4 +60,58 @@
     - Como realizar consultas com o método `find` do `Entity Manager`;
     - Como realizar consultas JPQL;
     - Como filtrar dados em consultas JPQL;
-    - Como retornar apenas parte de uma entidade em uma consulta JPQL.
+    - Como retornar apenas parte de uma entidade em uma consulta JPQL?
+
+ ---
+
+# Java e JPA: consultas avançadas, desempenho e modelos complexos — Parte 02
+
+### Steps
+
+- Mais relacionamentos ✅
+  - Mapeando novas entidades ✅
+  - Relacionamentos many-to-many ✅
+  - Relacionamentos bidirecionais ✅
+  - Parâmetro mappedBy ✅
+  - Teste do relacionamento bidirecional ✅
+  - Parâmetro cascade ✅
+  - O que aprendemos? ✅
+    - A mapear novas entidades na aplicação conforme a modelagem do banco de dados;
+    - A mapear um relacionamento com cardinalidade _muitos-para-muitos_;
+    - A mapear um relacionamento bidirecional;
+    - Como persistir entidades que possuam relacionamentos bidirecionais.
+
+
+- Consultas avançadas
+  - Consultas com funções de agregação
+  - Consultas para relatórios
+  - Consultas com select new
+  - Gerando relatórios
+  - Utilizando Named Queries
+  - Vantagens das named queries
+  - O que aprendemos?
+
+
+- Desempenho de consultas
+  - Entendendo Lazy e Eager
+  - Consultas com Join Fetch
+  - Consultas com Lazy e Eager
+  - Vantagens do join fetch
+  - O que aprendemos?
+
+
+- Criteria API
+  - Consultas com parâmetros dinâmicos
+  - Consulta dinâmica
+  - Consultas com Criteria API
+  - Desvantagens da Criteria API
+  - O que aprendemos?
+
+
+- Outros tópicos
+  - Simplificando entidades com Embeddable
+  - Mapeamento de herança
+  - Herança entre entidades
+  - Mapeamento de chaves compostas
+  - Utilizando chave composta
+  - O que aprendemos?

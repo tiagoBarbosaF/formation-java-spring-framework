@@ -13,6 +13,7 @@ public class Produto {
     private String nome;
     private String descricao;
     private BigDecimal preco;
+    @Column(name = "data_cadastro")
     private LocalDate dataCadastro = LocalDate.now();
     @ManyToOne
     @JoinColumn(name = "categoria_id")
@@ -30,7 +31,8 @@ public class Produto {
 
     @Override
     public String toString() {
-        return String.format("%nProduto%nId: %d%nNome: %s%nDescrição: %s%nPreço: %s%nCategoria: %s%n", this.id, this.nome,
+        return String.format("%nProduto%nId: %d%nNome: %s%nDescrição: %s%nPreço: %s%nCategoria: %s%n", this.id,
+                this.nome,
                 this.descricao, this.preco, categoria.getName());
     }
 

@@ -6,4 +6,5 @@
 - java servlet: autenticação, autorização, padrão mvc ✅
 - maven ✅
 - java jdbc ✅
-- java jpa hibernate ✅
+- java jpa hibernate - parte 01 ✅
+- java jpa hibernate - parte 02
