@@ -26,9 +26,16 @@ public class ProdutoDao {
         return entityManager.createQuery(consulta, Produto.class).getResultList();
     }
 
+    //    public List<Produto> buscarPorNome(String nome) {
+//        String consulta = "SELECT p FROM Produto p WHERE p.nome = :nome";
+//        return entityManager.createQuery(consulta, Produto.class)
+//                .setParameter("nome", nome)
+//                .getResultList();
+//    }
+
+    // Utilizando NamedQuery
     public List<Produto> buscarPorNome(String nome) {
-        String consulta = "SELECT p FROM Produto p WHERE p.nome = :nome";
-        return entityManager.createQuery(consulta, Produto.class)
+        return entityManager.createNamedQuery("Produto.produtosPorCategoria", Produto.class)
                 .setParameter("nome", nome)
                 .getResultList();
     }

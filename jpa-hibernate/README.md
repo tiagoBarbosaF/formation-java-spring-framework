@@ -82,15 +82,18 @@
     - Como persistir entidades que possuam relacionamentos bidirecionais.
 
 
-- Consultas avançadas
-  - Consultas com funções de agregação
-  - Consultas para relatórios
-  - Consultas com select new
-  - Gerando relatórios
-  - Utilizando Named Queries
-  - Vantagens das named queries
-  - O que aprendemos?
-
+- Consultas avançadas ✅
+  - Consultas com funções de agregação ✅
+  - Consultas para relatórios ✅
+  - Consultas com select new ✅
+  - Gerando relatórios ✅
+  - Utilizando Named Queries ✅
+  - Vantagens das named queries ✅
+  - O que aprendemos? ✅
+    - A realizar consultas utilizando funções de agregação, tais como `min`, `max`, `avg` e `sum`;
+    - Como escrever consultas de _relatórios_ utilizando JPQL;
+    - Como utilizar o recurso `select new` em consultas JPQL;
+    - A realizar consultas utilizando _named queries_.
 
 - Desempenho de consultas
   - Entendendo Lazy e Eager
