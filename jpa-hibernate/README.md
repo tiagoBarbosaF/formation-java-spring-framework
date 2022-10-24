@@ -95,13 +95,16 @@
     - Como utilizar o recurso `select new` em consultas JPQL;
     - A realizar consultas utilizando _named queries_.
 
-- Desempenho de consultas
-  - Entendendo Lazy e Eager
-  - Consultas com Join Fetch
-  - Consultas com Lazy e Eager
-  - Vantagens do join fetch
-  - O que aprendemos?
-
+- Desempenho de consultas ✅
+  - Entendendo Lazy e Eager ✅
+  - Consultas com Join Fetch ✅
+  - Consultas com Lazy e Eager ✅
+  - Vantagens do join fetch ✅
+  - O que aprendemos? ✅
+    - Como funcionam as estratégias _EAGER_ e _LAZY_, em consultas de entidades que possuem relacionamentos;
+    - Por que a JPA pode lançar a exception `LazyInitializationException` em determinadas situações;
+    - As boas práticas no carregamento de entidades com relacionamentos;
+    - Como realizar consultas planejadas com o recurso _join fetch_?
 
 - Criteria API
   - Consultas com parâmetros dinâmicos

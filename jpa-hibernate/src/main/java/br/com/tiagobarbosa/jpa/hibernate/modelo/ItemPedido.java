@@ -13,9 +13,11 @@ public class ItemPedido {
     @Column(name = "preco_unitario")
     private BigDecimal precoUnitario;
     private int quantidade;
-    @ManyToOne @JoinColumn(name = "pedido_id")
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "pedido_id")
     private Pedido pedido;
-    @ManyToOne @JoinColumn(name = "produto_id")
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "produto_id")
     private Produto produto;
 
     public ItemPedido() {

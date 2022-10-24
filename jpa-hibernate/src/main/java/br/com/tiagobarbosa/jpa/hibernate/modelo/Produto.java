@@ -16,7 +16,7 @@ public class Produto {
     private BigDecimal preco;
     @Column(name = "data_cadastro")
     private LocalDate dataCadastro = LocalDate.now();
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "categoria_id")
     private Categoria categoria;
 
