@@ -116,10 +116,13 @@
     - Como funciona a Criteria API da JPA;
     - Como realizar uma consulta com parâmetros opcionais via Criteria API.
 
-- Outros tópicos
-  - Simplificando entidades com Embeddable
-  - Mapeamento de herança
-  - Herança entre entidades
-  - Mapeamento de chaves compostas
-  - Utilizando chave composta
-  - O que aprendemos?
+- Outros tópicos ✅
+  - Simplificando entidades com Embeddable ✅
+  - Mapeamento de herança ✅
+  - Herança entre entidades ✅
+  - Mapeamento de chaves compostas ✅
+  - Utilizando chave composta ✅
+  - O que aprendemos? ✅
+    - A utilizar as anotações `@Embeddable` e `@Embedded` para organizar o código de uma entidade;
+    - A realizar herança entre entidades com as estratégias `SINGLE_TABLE` e `JOINED`;
+    - Como mapear uma chave composta com a anotação `@EmbeddedId`.
