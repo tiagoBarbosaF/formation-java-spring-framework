@@ -106,13 +106,15 @@
     - As boas práticas no carregamento de entidades com relacionamentos;
     - Como realizar consultas planejadas com o recurso _join fetch_?
 
-- Criteria API
-  - Consultas com parâmetros dinâmicos
-  - Consulta dinâmica
-  - Consultas com Criteria API
-  - Desvantagens da Criteria API
-  - O que aprendemos?
-
+- Criteria API ✅
+  - Consultas com parâmetros dinâmicos ✅
+  - Consulta dinâmica ✅
+  - Consultas com Criteria API ✅
+  - Desvantagens da Criteria API ✅
+  - O que aprendemos? ✅
+    - Como realizar consultas JPQL com parâmetros opcionais;
+    - Como funciona a Criteria API da JPA;
+    - Como realizar uma consulta com parâmetros opcionais via Criteria API.
 
 - Outros tópicos
   - Simplificando entidades com Embeddable
